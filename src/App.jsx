@@ -3,13 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Add from './component/Add'
+import Nav from './component/Nav'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      
+    <Nav />
+      <Add />
     </>
   )
 }
